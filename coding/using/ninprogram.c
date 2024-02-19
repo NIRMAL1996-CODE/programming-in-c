@@ -1,7 +1,7 @@
 #include <stdio.h>
 main()
 {
-    printf("nirmal/njaiswal");
+    printf("nirmal\njaiswal");
     return 0;
     
 }
