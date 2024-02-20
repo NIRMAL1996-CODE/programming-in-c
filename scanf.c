@@ -3,8 +3,8 @@
     {
         int a, b;
         printf("Enter two number");
-        scanf("%d\n%d",&a,&b);//printing more than 2 numbers y
-        
+        scanf("%d\n%d",&a,&b);
+        printf("sum of %d and %d is %d ",a,b,a+b);
         return 0;
 
     }
