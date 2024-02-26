@@ -1,4 +1,4 @@
-//not getting correct output
+//not getting correct output 
 
 #include<stdio.h>
 int main()
@@ -9,6 +9,7 @@ int main()
     sum = add(a,b);
     printf("sum is %d",sum);
     return 0;
+    
 }
   
   void add()
