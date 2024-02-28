@@ -3,7 +3,7 @@
 int oddEven(int a);
 int main()
 {
-    int a;  
+    int a ;  
     printf("Enter a Number");
     scanf("%d",&a); 
     oddEven(a);
