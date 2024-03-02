@@ -12,6 +12,6 @@ int main()
         rev[4]=temp;
         
     printf("Reverse numbers = %d %d %d %d %d",rev[0],rev[1],rev[2],rev[3],rev[4]);
-    return 0;
 
+    return 0;
  }
