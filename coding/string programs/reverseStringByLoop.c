@@ -8,7 +8,7 @@ fgets(s,50,stdin);
 int length= strlen(s)-1;
 printf("%d",length);
 
-for(int i = length; s[i]!='\0';i--)
+for(int i = length; i>=0;i--)
 {
     char string=s[i];
     printf("%c",string);
