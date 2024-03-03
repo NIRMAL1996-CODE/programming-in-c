@@ -5,7 +5,7 @@ int main()
 {
     int number,firstdigit;
     printf("enter a number\n");
-    scanf("%d",number);
+    scanf("%d",&number);
     while(number>=10)
     {   
         number=number/10;
