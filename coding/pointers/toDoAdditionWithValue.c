@@ -8,9 +8,7 @@ int main()
     *ptr = 10; 
     
     *ptr+=2;  // like this u  can add values too
-    //*ptr*=2;
-    //*ptr/=2;
-   // *ptr%=2;
+    
     //*ptr-=2;
      printf("%d\n",x); 
      printf("%d\n",*ptr); 
