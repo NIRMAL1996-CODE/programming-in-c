@@ -1,4 +1,4 @@
-//write a program to find  the largest element in a array.//
+//write a program to find  the largest element in a array.wrong//
 #include<stdio.h>
 int main()
 {
