@@ -4,17 +4,15 @@
 int main()
 {
    bool a= true,b= false;
-   bool x;
-   printf("ENTER two numbers = ");
-   scanf("%d\n",&a,&b);
-   
-   x=a&&b;
-     printf("%d\n",x);
-   x=a||b;
-     printf("%d\n",x);
-   x=a!=b;
-       printf("%d",x);
-   
-   
+   bool result;
+  
+   result=a&&b;
+     printf("%d\n",result);
+
+   result=a||b;
+     printf("%d\n",result);
+
+   result=a!=b;
+       printf("%d",result);
     return 0;
 }
