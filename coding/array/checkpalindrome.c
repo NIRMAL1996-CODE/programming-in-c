@@ -26,4 +26,5 @@ int palindrome(int n[],int size)
          rev= n[i];
         printf("%d",rev);
     }
+    
 }
