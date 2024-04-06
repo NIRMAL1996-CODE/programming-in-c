@@ -1,36 +1,32 @@
 //write a c program to input a number from the user and determine whether it is an armstong number or not//
-//wrong code
 #include<stdio.h>
 int armstrong(int number);
 int main()
 {
-    int num;
+    int num, result;
     printf(" ENTER A NUMBER= ");
     scanf("%d",&num);
-    printf("%d",(armstrong(num)));
-   {
-    printf("%d is an armstrong number",num);
-    }
-    else
-    {
-         printf("%d is not an armstrong number",num);
-    }
+    result= armstrong(num);
     return 0;
 }
 
 int armstrong(int number)
 {   
-    int count=0;
-  for(int i=1;number>0;i++)
-  {
-      number=number/10;
-      count+=1;
-  } 
-   int rem,result;
-    for(int i=count;count>0;i--)
+    int n=number;
+  int rem,arm=0;
+    for(int j=1;number>0;j++)
     {
       rem=number%10;
-      result*= rem+result;
+          arm=(rem*rem*rem)+arm;
+      number=number/10;
     }
-     printf("%d",result);
+  if(arm==n)
+   {
+    printf("%d is an armstrong number",arm);
+    }
+    else
+    {
+     printf("%d is not an armstrong number",arm);
+    }
+    return arm;
 }
