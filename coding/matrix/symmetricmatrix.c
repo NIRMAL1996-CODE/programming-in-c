@@ -1,4 +1,4 @@
-//write a program to chcek if a matrix is symmentric or not//
+//write a program to chcek if a matrix is symmetric or not//
 #include<stdio.h>
 int main()
 {
@@ -37,10 +37,10 @@ int main()
     }
     if( a[i][j]==b[i][j])
     {
-        printf("matrix is symentric");
+        printf("matrix is symmetric");
     }
     else
-    printf("matrix is not symentric");
+    printf("matrix is not symmetric");
     
     return 0;
 }
