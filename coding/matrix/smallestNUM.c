@@ -1,9 +1,9 @@
-//write a program to find the smallest number of the matrix //
+//c //
 #include<stdio.h>
 int main()
 {
     int a[2][2], i, j;
-    int max;
+    int small;
     int size= sizeof(a)/sizeof(a[0][0]);
     printf("enter elements \n");
     for( i=0;i<2;i++)
@@ -21,7 +21,7 @@ int main()
         }
         printf("\n");
     }
-    max=a[0][0];
+    small=a[0][0];
      for( i=0;i<2;i++)
     {
       for( j=0;j<2;j++)
@@ -30,6 +30,6 @@ int main()
            max=a[i][j];
           }
     }
-    printf("greatest number in a matrix = %d",max);
+    printf("smallest number in a matrix = %d",max);
    return 0;
 }
