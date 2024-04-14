@@ -1,4 +1,4 @@
-//write a program to perform binary search on a rotated sorted array.//
+//write a program to perform binary search on floating point sorted array.//
 #include<stdio.h>
 #include<stdbool.h>
 int main()
